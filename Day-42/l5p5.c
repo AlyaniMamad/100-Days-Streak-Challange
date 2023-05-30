@@ -27,9 +27,9 @@ int main(){
     }
 
     if(res == no){
-        printf("\n%d is Armstrong no",no);
+        printf("\n%d is Armstrong no\n",no);
     }else{
-        printf("\n%d is Not Armstrong no",no);
+        printf("\n%d is Not Armstrong no\n",no);
     }
 
     return 0;
