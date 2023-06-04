@@ -5,20 +5,20 @@
 
 int main(){
 
-    int no;
+    int num;
 
     printf("\nEnter Number : ");
-    scanf("%d",&no);
+    scanf("%d",&num);
 
-    int ornum = no;
+    int ornum = num;
     int n=0,res=0,rem;
 
     while(ornum != 0){
-        no/=10;
+        num/=10;
         ++n;
     }
 
-    ornum = no;
+    ornum = num;
 
     while(ornum !=0){
         rem = ornum%10;
@@ -26,10 +26,10 @@ int main(){
         ornum/=10;
     }
 
-    if(res == no){
-        printf("\n%d is Armstrong no\n",no);
+    if(res == num){
+        printf("\n%d is Armstrong no\n",num);
     }else{
-        printf("\n%d is Not Armstrong no\n",no);
+        printf("\n%d is Not Armstrong no\n",num);
     }
 
     return 0;
