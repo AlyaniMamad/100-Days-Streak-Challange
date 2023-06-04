@@ -4,13 +4,13 @@ int main()
 {
     int n;
     printf("\nEnter N :");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     int arr[n];
     printf("\nEnter Array Elements : ");
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &arr[i]);
+        scanf("%d",&arr[i]);
     }
     int key;
     printf("\nEnter Element You Want to search : ");
