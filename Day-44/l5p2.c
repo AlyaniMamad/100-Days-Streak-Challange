@@ -45,6 +45,8 @@ int main()
     else if (powerConsumed > 500)
     {
         amountToBePaid = 575 + (powerConsumed - 500) * 1.75;
+    }else{
+        printf("\nInvalid Input");
     }
 
     printf("Amount to be Paid: Rs. %.2f\n", amountToBePaid);
