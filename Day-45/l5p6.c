@@ -8,7 +8,7 @@ int main() {
 
     originalNumber = number;
 
-    // Reversing the number
+    
     while (number != 0) {
         remainder = number % 10;
         reversedNumber = reversedNumber * 10 + remainder;
