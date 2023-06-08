@@ -7,7 +7,6 @@ int main() {
     scanf("%d", &number);
 
     originalNumber = number;
-
     
     while (number != 0) {
         remainder = number % 10;
