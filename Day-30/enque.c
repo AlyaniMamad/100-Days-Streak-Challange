@@ -16,10 +16,10 @@ void enque(int val){
 }
 void dequeue()
 {
-    
+    //Enque code will be here
 }
 void display(){
-
+    //Code For Display
 }
 int main(){
 
