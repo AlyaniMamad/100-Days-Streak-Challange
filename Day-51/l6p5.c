@@ -8,10 +8,10 @@ int main() {
     int num1, num2;
     int sum = 0;
     
-    printf("Enter the first 4-digit number: ");
+    printf("\nEnter the first 4-digit number: ");
     scanf("%d", &num1);
     
-    printf("Enter the second 4-digit number: ");
+    printf("\nEnter the second 4-digit number: ");
     scanf("%d", &num2);
     
     for (int i = 0; i < 4; i++) {
