@@ -5,11 +5,11 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main() {
+int main(){
     char ch;
     char choice;
     
-    do {
+    do{
         printf("Enter a character: ");
         scanf(" %c", &ch);
         
@@ -23,7 +23,7 @@ int main() {
         printf("Do you want to continue? (y/n): ");
         scanf(" %c", &choice);
         printf("\n");
-    } while (choice == 'y' || choice == 'Y');
+    }while (choice == 'y' || choice == 'Y');
     
     return 0;
 }
