@@ -20,7 +20,7 @@ int main() {
         num2 /= 10;
     }
     
-    printf("Sum of products of corresponding digits: %d\n", sum);
+    printf("\nSum of products of corresponding digits: %d\n", sum);
     
     return 0;
 }
