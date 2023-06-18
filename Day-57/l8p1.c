@@ -17,7 +17,7 @@ int main() {
 
     rerun:
 
-    printf("Enter a string: ");
+    printf("\nEnter a string: ");
     scanf("%s", str1);
 
     printf("Menu:\n");
