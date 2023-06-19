@@ -7,39 +7,43 @@
 
 #include <stdio.h>
 
-int main() {
-    int size, i, j, count = 0;
-    
-    printf("Enter the size : ");
-    scanf("%d", &size);
-    
-    int array[size];
-    
-    printf("Enter the elements :\n");
-    for (i = 0; i < size; i++) {
-        scanf("%d", &array[i]);
+int main(){
+
+    int n,count=0;
+
+    printf("\nEnter Size : ");
+    scanf("%d",&n);
+
+    int arr[n];
+
+    printf("\nEnter %d Elements : ",n);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-    
-    for (i = 0; i < size; i++) {
-        for (j = i + 1; j < size; j++) {
-            if (array[i] == array[j]) {
-                int k;
-                count++;
-                for (k = j; k < size - 1; k++) {
-                    array[k] = array[k + 1];
+
+    printf("\nOriginal Array :");
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
+                count ++;
+                for(int k=j; k<n-1;k++){
+                    arr[k]=arr[k+1];
                 }
-                size--;
-                j--;
+                n--;j--;
             }
         }
     }
-    
-    printf("New array after removing duplicates:\n");
-    for (i = 0; i < size; i++) {
-        printf("%d ", array[i]);
+
+    printf("\nAfter Removing Duplicates Array :");
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
     }
-    
-    printf("\nduplicate elements: %d\n", count);
-    
+
+    printf("\n\nDuplicates : %d",count);
+
     return 0;
 }
