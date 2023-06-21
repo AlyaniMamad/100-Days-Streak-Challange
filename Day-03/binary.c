@@ -33,7 +33,7 @@ int main()
         }
     }
     if(flag==1)
-        printf("%d---FOUND---",key);
+        printf("\n%d---FOUND---",key);
     else    
-        printf("---NOT FOUND---");
+        printf("\n---NOT FOUND---");
 }
