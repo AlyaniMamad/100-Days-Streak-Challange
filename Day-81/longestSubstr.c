@@ -20,7 +20,7 @@ int main(){
         }
     }
 
-    printf("%d",cnt);
+    printf("Count : %d",cnt);
 
     return 0;
 }
