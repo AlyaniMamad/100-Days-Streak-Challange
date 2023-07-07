@@ -20,7 +20,7 @@ int main(){
     printf("\nEnter %d Elements : ",n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }   Q`SZW
+    } 
 
     for(int i=0;i<n;i++){
         int sum=0;
@@ -32,7 +32,7 @@ int main(){
         }
     }
 
-    printf("Max : %d",max);
+    printf("\nMax : %d",max);
 
     return 0;
 }
