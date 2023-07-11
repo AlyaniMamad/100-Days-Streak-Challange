@@ -33,6 +33,7 @@ int main(){
             j++;
         }
     }
+        printf("\nNew Array : ");
 
     for(int i=0;i<n;i++){
         printf("%d ",newarr[i]);
