@@ -11,7 +11,8 @@
 
 int main(){
 
-    int n,step;
+    int n;
+    int step;
     printf("\nEnter N : ");
     scanf("%d",&n);
 
