@@ -55,9 +55,9 @@ int main(){
     }
 
     if(flag==0){
-        printf("\nAnagam");
+        printf("\nAnagam String");
     }else{
-        printf("\nNot Anagam");
+        printf("\nNot An Anagam String");
     }
     return 0;
 }
