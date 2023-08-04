@@ -4,8 +4,7 @@
 
 int main(){
 
-    int no,digit;
-    int largestdigit=0;
+    int no,digit,largestdigit=0;
 
     printf("\nEnter Number : ");
     scanf("%d",&no);

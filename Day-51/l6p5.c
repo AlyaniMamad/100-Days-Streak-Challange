@@ -2,6 +2,7 @@
 // print out the sum of the products of each pair of digits occupying the same
 // position in the two numbers. For example, if first number is 3445 and second
 // number is 4534, then output will 64 (3*4 + 4*5 + 4*3 + 5*4 = 64)
+
 #include <stdio.h>
 
 int main() {
@@ -20,7 +21,7 @@ int main() {
         num2 /= 10;
     }
     
-    printf("\nSum of products of corresponding digits: %d\n", sum);
+    printf("\nSum of products of corresponding digits: %d", sum);
     
     return 0;
 }

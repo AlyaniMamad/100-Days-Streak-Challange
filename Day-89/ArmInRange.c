@@ -16,12 +16,12 @@ int main(){
         int p=0,orno=i,sum=0;
         while(i!=0){
             p++;
-            i/=10;
+            i=i/10;
         }
         int on = orno;
         while(orno!=0){
             int rem=orno%10;
-            sum += pow(rem,p);
+            sum =sum + pow(rem,p);
             orno/=10;
         }
         if(sum==on)
