@@ -19,13 +19,11 @@ int main() {
 
     printf("\nEnter K: ");
     scanf("%d", &k);
-
     // Rotate the array to the right by k steps
     for (int i = 0; i < n; i++) {
         int rotatedIndex = (i + k) % n;
         secarr[rotatedIndex] = arr[i];
     }
-
     printf("\nRotated Array: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", secarr[i]);
